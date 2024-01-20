@@ -1,0 +1,8 @@
+git --version
+git config --global user.name "..."
+git config --global user.email "..."
+gig config --list
+mkdir Code
+git init --initial-branch=main
+git status
+git help
