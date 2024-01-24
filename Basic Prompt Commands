@@ -2,3 +2,4 @@ go to a folder: cd <foldername>
 folder back: cd ../
 folder 2 backs: cd ../../
 make a folder: mkdir <name>
+see folders: dir
