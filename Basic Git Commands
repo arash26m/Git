@@ -6,3 +6,15 @@ mkdir Code
 git init --initial-branch=main
 git status
 git help
+
+#Pro Git: https://git-scm.com/book/en/v2
+
+git checkout branch-name
+git add filename
+git commit -a -m "this is a message about what youre committing"
+git diff
+git pull
+git push 
+git log
+git status
+git checkout -a branch 
