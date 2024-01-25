@@ -19,4 +19,3 @@ git push origin <my branch>                # confirm changes on the branch
 git log                                    # to see the list of changes; press q to exit from view
 git status                                 # what branch I am on
 
-git push                                   # 
