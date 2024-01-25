@@ -9,17 +9,14 @@ git help
 
 #Pro Git: https://git-scm.com/book/en/v2
 
-git checkout -b 1690-fix1                 # make a new branh
+git checkout -b 1690-fix1                 # make a new branh and switch to it
 git checkout <branch name>                # to move to a branch like master
-git add filename
-git commit -a -m "this is a message about what youre committing"
+git add filename                          # add a file or change
+git commit -a -m "this is a message about what youre committing"   # -a comment about all files changes -m comment about specefic file changes
 git diff
 git pull origin master                     # update all the files inside the main branch (mater)
-git push 
-git log                                    # to see the list of changes; Press q to exit from view
+git push origin <my branch>                # confirm changes on the branch
+git log                                    # to see the list of changes; press q to exit from view
 git status                                 # what branch I am on
-git checkout -a branch 
 
-git add                                    # add a file or change
-git commint -m "...."                      # add comment on changes"
-git push                                   # confirm changes on the branch
+git push                                   # 
