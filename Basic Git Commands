@@ -19,3 +19,10 @@ git push origin <my branch>                # confirm changes on the branch
 git log                                    # to see the list of changes; press q to exit from view
 git status                                 # what branch I am on
 
+
+git init
+git remote add origin <git link>
+git remote -v
+git add .
+git commit - "comment"
+git push origin master
