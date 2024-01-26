@@ -4,7 +4,7 @@ git config --global user.email "..."
 gig config --list
 mkdir Code
 git init --initial-branch=main
-git status
+git status                              # shows the branch we are in
 git help
 
 #Pro Git: https://git-scm.com/book/en/v2
@@ -12,12 +12,12 @@ git help
 git checkout -b 1690-fix1                 # make a new branh and switch to it
 git checkout <branch name>                # to move to a branch like master
 git add filename                          # add a file or change
-git commit -a -m "this is a message about what youre committing"   # -a comment about all files changes -m comment about specefic file changes
+git commit -a -m "comment"                # -a comment about all files changes -m comment about specefic file changes
 git diff
-git pull origin master                     # update all the files inside the main branch (mater)
-git push origin <my branch>                # confirm changes on the branch
-git log                                    # to see the list of changes; press q to exit from view
-git status                                 # what branch I am on
+git pull origin master                    # update all the files inside the main branch (mater)
+git push origin <my branch>               # confirm changes on the branch
+git log                                   # to see the list of changes; press q to exit from view
+git status                                # what branch I am on
 
 
 git init
