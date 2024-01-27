@@ -28,7 +28,6 @@ git commit - "comment"
 git push origin master
 
 
-
 # create a new repository on the command line
 git init
 git add README.md
