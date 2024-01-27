@@ -24,8 +24,12 @@ git init
 git remote add origin <git link>
 git remote -v
 git add .
-git commit - "comment"
+git commit -m "comment"
 git push origin master
+
+git branch -D <branch name>                 # delete branch locally when you are not on that branch
+git push origin --delete <branch name>      # delete the branch from github
+
 
 
 # create a new repository on the command line
