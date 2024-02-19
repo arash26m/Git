@@ -7,6 +7,7 @@ git init --initial-branch=main
 git status                              # shows the branch we are in
 git help
 git log                                 # see list of changes
+# press q to exit from git log
 
 #Pro Git: https://git-scm.com/book/en/v2
 
