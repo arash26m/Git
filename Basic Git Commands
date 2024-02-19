@@ -33,6 +33,7 @@ git push origin --delete <branch name>      # delete the branch from github
 
 
 # create a new repository on the command line
+# creat a repository in github and copy the link
 git init
 git add README.md
 git commit -m "first commit"
